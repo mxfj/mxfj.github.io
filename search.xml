@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Kubernetes奇遇记之存储风波</title>
+    <url>/2020/10/13/Kubernetes%E5%A5%87%E9%81%87%E8%AE%B0%E4%B9%8B%E5%AD%98%E5%82%A8%E9%A3%8E%E6%B3%A2/</url>
+    <content><![CDATA[<p>这里开始记录我的运维生涯有趣的故事！做了十年运维，一路上解决各种神秘离奇的古怪BUG，是您职业路上披荆斩棘的绝好帮手，欢迎收藏! <a href="http://www.mxfj.com/">梦想福建</a></p>
+<h2 id="Kubernetes奇遇记之存储风波"><a href="#Kubernetes奇遇记之存储风波" class="headerlink" title="Kubernetes奇遇记之存储风波"></a>Kubernetes奇遇记之存储风波</h2><p>故事的开始其实要追溯到3年前，那时候K8S才刚刚起来，作为一个运维人怎么能放过那么好的一个平台进行练手！于是小哥我在内网假设了k8s的环境…</p>
+<h3 id="新手玩转K8S"><a href="#新手玩转K8S" class="headerlink" title="新手玩转K8S"></a>新手玩转K8S</h3><p>现在来看3年前的我，那时候的我还是很傻很天真：总以为来日方长，却忘了世事无常。Kubernetes的部署文档很多，官方文档也很详细，琢磨了大概有那么一两周部署内网测试集群完成。在部署完成K8S的集群后就交接给了开发进行系统环境搭建。</p>
+<h3 id="幸福来临的太快"><a href="#幸福来临的太快" class="headerlink" title="幸福来临的太快"></a>幸福来临的太快</h3><p>自从交接给开发K8S使用后，我已经有半年没有动过k8s，依稀记得K8S那时候的版本是1.12.4.开源的东西迭代的老快了,但是早期BUG也多半年过后已然是1.13.1，更新了无数的东西etcd啥的组件也同步更新了，刚好开发反馈给我说集群开始遇到了问题，我排查过后发现由于测试集群内存资源不足。鉴于当前底层内存不足我重组了底层的物理架构我进行了一次升级版本同步到了1.13.1.此后又稳定运行了许久大约有个小半年，大数据来了个专门搞K8S的大神..我这一个半吊子爱好者就把内网K8S集群交接了出去。幸福来临的太快！</p>
+<h3 id="灾难的来临！"><a href="#灾难的来临！" class="headerlink" title="灾难的来临！"></a>灾难的来临！</h3><p>时光穿越到这个月，就在前几天大神离职了，留下了一堆的烂摊子~由于之前没人碰过K8S,那K8S又回到了我的手上，这在交接的时候</p>
+]]></content>
+      <categories>
+        <category>Kubernetes</category>
+        <category>运维</category>
+      </categories>
+      <tags>
+        <tag>k8s</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>故事的开始</title>
     <url>/2020/10/13/%E6%95%85%E4%BA%8B%E7%9A%84%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>这里开始记录我的运维生涯有趣的故事！做了十年运维，一路上解决各种神秘离奇的古怪BUG，是您职业路上披荆斩棘的绝好帮手，欢迎收藏! <a href="http://www.mxfj.com/">梦想福建</a></p>

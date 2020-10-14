@@ -2,19 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>匆匆那年</title>
   
-  
+  <subtitle>www.onemt.com</subtitle>
   <link href="http://www.mxfj.com/atom.xml" rel="self"/>
   
   <link href="http://www.mxfj.com/"/>
-  <updated>2020-10-13T03:12:44.284Z</updated>
+  <updated>2020-10-14T02:53:04.945Z</updated>
   <id>http://www.mxfj.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Hongbin Zheng</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kubernetes奇遇记之存储风波</title>
+    <link href="http://www.mxfj.com/2020/10/13/Kubernetes%E5%A5%87%E9%81%87%E8%AE%B0%E4%B9%8B%E5%AD%98%E5%82%A8%E9%A3%8E%E6%B3%A2/"/>
+    <id>http://www.mxfj.com/2020/10/13/Kubernetes%E5%A5%87%E9%81%87%E8%AE%B0%E4%B9%8B%E5%AD%98%E5%82%A8%E9%A3%8E%E6%B3%A2/</id>
+    <published>2020-10-13T08:51:36.000Z</published>
+    <updated>2020-10-14T02:53:04.945Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这里开始记录我的运维生涯有趣的故事！做了十年运维，一路上解决各种神秘离奇的古怪BUG，是您职业路上披荆斩棘的绝好帮手，欢迎收藏! &lt;a href=&quot;http://www.mxfj.com/&quot;&gt;梦想福建&lt;/a&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Kubernetes" scheme="http://www.mxfj.com/categories/Kubernetes/"/>
+    
+    <category term="运维" scheme="http://www.mxfj.com/categories/Kubernetes/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="k8s" scheme="http://www.mxfj.com/tags/k8s/"/>
+    
+  </entry>
   
   <entry>
     <title>故事的开始</title>
