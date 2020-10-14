@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.mxfj.com/2020/10/13/Kubernetes%E5%A5%87%E9%81%87%E8%AE%B0%E4%B9%8B%E5%AD%98%E5%82%A8%E9%A3%8E%E6%B3%A2/</loc>
-    
-    <lastmod>2020-10-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.mxfj.com/tags/index.html</loc>
     
     <lastmod>2020-10-14</lastmod>
@@ -60,13 +53,6 @@
 
   
   <url>
-    <loc>http://www.mxfj.com/tags/k8s/</loc>
-    <lastmod>2020-10-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.mxfj.com/tags/%E8%BF%90%E7%BB%B4%E7%94%9F%E6%B6%AF/</loc>
     <lastmod>2020-10-14</lastmod>
     <changefreq>daily</changefreq>
@@ -74,19 +60,5 @@
   </url>
   
 
-  
-  <url>
-    <loc>http://www.mxfj.com/categories/Kubernetes/</loc>
-    <lastmod>2020-10-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.mxfj.com/categories/Kubernetes/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2020-10-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
 </urlset>
