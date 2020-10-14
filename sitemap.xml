@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.mxfj.com/2020/10/14/%E6%8E%A5%E4%BD%8F%EF%BC%9A%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDGooglePlay%E7%9A%84APK%E5%8C%85/</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.mxfj.com/tags/index.html</loc>
     
     <lastmod>2020-10-14</lastmod>
@@ -51,6 +58,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://www.mxfj.com/tags/GooglePlay/</loc>
+    <lastmod>2020-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.mxfj.com/tags/apk/</loc>
+    <lastmod>2020-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>http://www.mxfj.com/tags/%E8%BF%90%E7%BB%B4%E7%94%9F%E6%B6%AF/</loc>
