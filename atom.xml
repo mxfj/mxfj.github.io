@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>一万年太久</title>
+  <title>梦想福建</title>
   
   <subtitle>梦想福建工作室</subtitle>
   <link href="http://mxfj.com/atom.xml" rel="self"/>
   
   <link href="http://mxfj.com/"/>
-  <updated>2020-10-14T10:30:36.359Z</updated>
+  <updated>2020-10-15T01:21:35.601Z</updated>
   <id>http://mxfj.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MySQL8.x开启远程访问</title>
+    <link href="http://mxfj.com/2020/10/15/MySQL8-x%E5%BC%80%E5%90%AF%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE/"/>
+    <id>http://mxfj.com/2020/10/15/MySQL8-x%E5%BC%80%E5%90%AF%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE/</id>
+    <published>2020-10-15T01:18:00.000Z</published>
+    <updated>2020-10-15T01:21:35.601Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Step1-首先登录进MySQL"><a href="#Step1-首先登录进MySQL" class="headerlink" title="Step1.首先登录进MySQL"></a>Step1.首先登录进MySQL</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure><h2 id="Step2-接着选择mysql数据库"><a href="#Step2-接着选择mysql数据库" class="headerlink" title="Step2.接着选择mysql数据库"></a>Step2.接着选择mysql数据库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use mysql;</span><br></pre></td></tr></table></figure><h2 id="Step3-然后使用如下命令开启root用户远程访问权限"><a href="#Step3-然后使用如下命令开启root用户远程访问权限" class="headerlink" title="Step3.然后使用如下命令开启root用户远程访问权限"></a>Step3.然后使用如下命令开启root用户远程访问权限</h2><pre><code>CREATE USER &#39;root&#39;@&#39;%&#39; IDENTIFIED BY &#39;你MySQL的root密码&#39;;GRANT ALL ON *.* TO &#39;root&#39;@&#39;%&#39;;ALTER USER &#39;root&#39;@&#39;%&#39; IDENTIFIED WITH mysql_native_password BY &#39;你MySQL的root密码&#39;;</code></pre><h2 id="Step4-最后刷新一下权限"><a href="#Step4-最后刷新一下权限" class="headerlink" title="Step4.最后刷新一下权限"></a>Step4.最后刷新一下权限</h2><pre><code>FLUSH PRIVILEGES;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Step1-首先登录进MySQL&quot;&gt;&lt;a href=&quot;#Step1-首先登录进MySQL&quot; class=&quot;headerlink&quot; title=&quot;Step1.首先登录进MySQL&quot;&gt;&lt;/a&gt;Step1.首先登录进MySQL&lt;/h2&gt;&lt;figure class=&quot;hi</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="http://mxfj.com/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="http://mxfj.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
     <title>直接下载GooglePlay的APK包</title>
     <link href="http://mxfj.com/2020/10/14/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDGooglePlay%E7%9A%84APK%E5%8C%85/"/>
     <id>http://mxfj.com/2020/10/14/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDGooglePlay%E7%9A%84APK%E5%8C%85/</id>
     <published>2020-10-14T10:28:49.000Z</published>
-    <updated>2020-10-14T10:30:36.359Z</updated>
+    <updated>2020-10-15T07:11:32.914Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>说实话这又是在给别家网站做广告了，虽然没有收广告费，但是真的好用，换了新的手机没有下载google三件套，做个留恋：</p><h3 id="寻物"><a href="#寻物" class="headerlink" title="寻物"></a>寻物</h3><p>首先找到您需要下载的apk链接，我这里准备下载一个安卓的远程桌面的APK<br><a href="https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx">https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx</a></p><h3 id="复制粘贴"><a href="#复制粘贴" class="headerlink" title="复制粘贴"></a>复制粘贴</h3><p><a href="https://apps.evozi.com/apk-downloader/?id=">https://apps.evozi.com/apk-downloader/?id=</a><br>对就这个网站打开贴进去</p><h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3>]]></content>
     
@@ -34,11 +58,7 @@
     
     
     
-    <category term="技术类" scheme="http://mxfj.com/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/"/>
-    
-    <category term="方法" scheme="http://mxfj.com/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/%E6%96%B9%E6%B3%95/"/>
-    
-    <category term="妙招大看台" scheme="http://mxfj.com/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/%E6%96%B9%E6%B3%95/%E5%A6%99%E6%8B%9B%E5%A4%A7%E7%9C%8B%E5%8F%B0/"/>
+    <category term="妙招大看台" scheme="http://mxfj.com/categories/%E5%A6%99%E6%8B%9B%E5%A4%A7%E7%9C%8B%E5%8F%B0/"/>
     
     
     <category term="GooglePlay" scheme="http://mxfj.com/tags/GooglePlay/"/>
