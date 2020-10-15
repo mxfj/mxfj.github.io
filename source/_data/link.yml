@@ -1,0 +1,44 @@
+- class_name: 友情鏈接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+
+- class_name: 美术学院
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: pinterest
+      link: https://www.pinterest.com/
+      avatar: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/pinterest.png
+      descr: P站
+    - name: 花瓣
+      link: https://huaban.com/
+      avatar: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/huaban.png
+      descr: 花瓣，陪你做生活的设计师
+
+
+- class_name: 前端
+  class_desc: 前端学习推荐站点
+  link_list:
+    - name: itmeo
+      link: https://webgradients.com/
+      avatar: https://webgradients.com/img/other/logos/itmeo_logo.png
+      descr: 网页配色
+    - name: icon
+      link: https://fontawesome.com/icons?d=gallery
+      avatar: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/font_awesome_logo.png
+      descr: Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。
+    - name: icon-china
+      link: http://www.fontawesome.com.cn/
+      avatar: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/font_awesome_logo.png
+      descr: Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。
+      
+- class_name: tools
+  class_desc: 前端学习推荐站点
+  link_list:
+    - name: saerasoft
+      link: https://saerasoft.com/caesium/
+      avatar: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/seaerasoft.png
+      descr: 图片压缩

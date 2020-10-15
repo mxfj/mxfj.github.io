@@ -4,8 +4,6 @@ tags:
   - GooglePlay
   - apk
 categories:
-  - 技术类
-  - 方法
   - 妙招大看台
 date: 2020-10-14 18:28:49
 ---
