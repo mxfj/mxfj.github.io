@@ -1,6 +1,6 @@
 ---
 title: {{ title }}	#【必需】文章標題
-date:	#【必需】文章創建日期
+date: {{ date }}	#【必需】文章創建日期
 updated:	#【可選】文章更新日期
 tags:	#【可選】文章標籤
 categories:	#【可選】文章分類
