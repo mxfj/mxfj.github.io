@@ -5,6 +5,8 @@ tags:
 categories:
   - mysql
 date: 2020-10-15 09:18:00
+top_img: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/MySQL.png
+cover: https://cdn.jsdelivr.net/gh/mxfj/cdn/img/MySQL.png
 ---
 ## Step1.首先登录进MySQL
 ``` 
