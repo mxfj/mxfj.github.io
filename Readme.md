@@ -1,10 +1,12 @@
 # 快速部署使用
+```
 npm install hexo -g #安装Hexo
 npm update hexo -g #升级
-
+```
 # 部署测试
+```
 hexo server -s -p 8080 -i 127.0.0.1
-
+```
 # hexo 三剑客
 ```
 hexo clean   
